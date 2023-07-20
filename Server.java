@@ -5,7 +5,7 @@ import java.io.ObjectOutputStream;
 import java.net.Socket;
 import java.util.ArrayList;
 import java.net.ServerSocket;
-public class Server
+class Server
 {
 	private static ServerSocket ssocket = null;
 	private static Socket csocket = null;
